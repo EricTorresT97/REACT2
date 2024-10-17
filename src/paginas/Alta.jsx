@@ -4,7 +4,6 @@ import { savePersonName } from "../servicios/api";
 
 const Alta = () => {
   const [nombre, setNombre] = useState("");
-  const [edad, setEdad] = useState();
 
   return (
     <div>
@@ -14,11 +13,6 @@ const Alta = () => {
           type="text"
           placeholder="nombre usuario"
           onChange={(e) => setNombre(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="edad del usuario"
-          onChange={(e) => setEdad(e.target.value)}
         />
 
         <button onClick={() => savePersonName({ name: nombre })}>
