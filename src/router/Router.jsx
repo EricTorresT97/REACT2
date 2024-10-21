@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../paginas/home";
-import Alta from "../paginas/alta";
-import Baja from "../paginas/baja";
-import Consulta from "../paginas/consulta";
+import Home from "../paginas/Home";
+import Alta from "../paginas/Alta";
+import Baja from "../paginas/Baja";
+import Consulta from "../paginas/Consulta";
 const Router = () => (
   <BrowserRouter>
     <Routes>
