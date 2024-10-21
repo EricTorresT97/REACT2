@@ -4,7 +4,7 @@ import Alta from "../paginas/alta";
 import Baja from "../paginas/baja";
 import Consulta from "../paginas/consulta";
 const Router = () => (
-  <BrowserRouter basename="/REACT2">
+  <BrowserRouter>
     <Routes>
       <Route index element={<Home />} />
       <Route path="/Alta" element={<Alta />} />
